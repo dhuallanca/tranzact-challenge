@@ -1,4 +1,6 @@
+using AddressBook.Domain.Interfaces;
 using AddressBook.Repository.EF;
+using AddressBook.Repository.EF.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -41,6 +43,10 @@ namespace AddressBookApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AddressBookApi", Version = "v1" });
             });
+
+            #region Repositories
+            services.AddTransient<IContactRepository, ContactRepository>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
