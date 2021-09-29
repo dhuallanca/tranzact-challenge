@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookApi", "AddressBookApi\AddressBookApi.csproj", "{AC37DA2D-53AB-4787-8523-54EB0AA292FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBookApi", "AddressBookApi\AddressBookApi.csproj", "{AC37DA2D-53AB-4787-8523-54EB0AA292FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Domain", "AddressBook.Domain\AddressBook.Domain.csproj", "{E90E8841-44E5-4571-8604-38938D434A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook.Domain", "AddressBook.Domain\AddressBook.Domain.csproj", "{E90E8841-44E5-4571-8604-38938D434A03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook.Repository.EF", "AddressBook.Repository.EF\AddressBook.Repository.EF.csproj", "{067EA67E-3955-484B-BB6C-E5BFDA5A1785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressBook.Repository.EF", "AddressBook.Repository.EF\AddressBook.Repository.EF.csproj", "{067EA67E-3955-484B-BB6C-E5BFDA5A1785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookApi.Tests", "AddressBookApi.Tests\AddressBookApi.Tests.csproj", "{4887E6D3-F582-4A8A-AFF6-EB63BCBE2E43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{067EA67E-3955-484B-BB6C-E5BFDA5A1785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067EA67E-3955-484B-BB6C-E5BFDA5A1785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067EA67E-3955-484B-BB6C-E5BFDA5A1785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4887E6D3-F582-4A8A-AFF6-EB63BCBE2E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4887E6D3-F582-4A8A-AFF6-EB63BCBE2E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4887E6D3-F582-4A8A-AFF6-EB63BCBE2E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4887E6D3-F582-4A8A-AFF6-EB63BCBE2E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

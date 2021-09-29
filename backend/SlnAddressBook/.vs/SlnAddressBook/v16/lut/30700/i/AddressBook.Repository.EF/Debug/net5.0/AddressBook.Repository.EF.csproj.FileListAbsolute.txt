@@ -1,0 +1,10 @@
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\b\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.deps.json
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\b\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.dll
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\b\AddressBook.Repository.EF\Debug\net5.0\ref\AddressBook.Repository.EF.dll
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.csproj.AssemblyReference.cache
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.GeneratedMSBuildEditorConfig.editorconfig
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.AssemblyInfoInputs.cache
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.AssemblyInfo.cs
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.csproj.CopyComplete
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Repository.EF\Debug\net5.0\AddressBook.Repository.EF.dll
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Repository.EF\Debug\net5.0\ref\AddressBook.Repository.EF.dll

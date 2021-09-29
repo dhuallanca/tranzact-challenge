@@ -1,0 +1,10 @@
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\b\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.deps.json
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\b\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.dll
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\b\AddressBook.Domain\Debug\net5.0\ref\AddressBook.Domain.dll
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.csproj.AssemblyReference.cache
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.AssemblyInfoInputs.cache
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.AssemblyInfo.cs
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.csproj.CopyComplete
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Domain\Debug\net5.0\AddressBook.Domain.dll
+F:\tranzact-challenge\backend\SlnAddressBook\.vs\SlnAddressBook\v16\lut\0\i\AddressBook.Domain\Debug\net5.0\ref\AddressBook.Domain.dll
