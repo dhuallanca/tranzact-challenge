@@ -21,6 +21,7 @@ namespace AddressBookApi
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -31,10 +32,21 @@ namespace AddressBookApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:3000")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod();
+                                  });
+            });
 
             services.AddControllers().AddJsonOptions(option =>
-                option.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve
+                option.JsonSerializerOptions.ReferenceHandler = null
             );
+
             services.AddDbContext<ApplicationDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("defaultConnection"),
                 b => b.MigrationsAssembly(typeof(ApplicationDBContext).Assembly.FullName))
@@ -62,6 +74,8 @@ namespace AddressBookApi
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
