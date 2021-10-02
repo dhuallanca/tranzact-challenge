@@ -2,8 +2,10 @@ import { useEffect, useState } from 'react';
 import axios from '../axios.config';
 import { useParams } from "react-router";
 import { Alert, Button, Card, Form } from 'react-bootstrap';
-const ContactEdit = () => {
+import { Link } from 'react-router-dom';
+import './Contacts.css';
 
+const ContactEdit = () => {
   const initialContact = {};
   const [contact, setContact] = useState(initialContact);
   const [succeed, setSucceed] = useState(false);
@@ -68,8 +70,10 @@ const ContactEdit = () => {
   }
 
   return (
-    <Card>
-      <Form>
+    <Card border="secondary">
+      <Card.Header>Contact</Card.Header>
+      <Card.Body>
+        <Form>
         <Form.Group className="mb-3" controlId="formFirstName">
           <Form.Label>First name</Form.Label>
           <Form.Control type="text"
@@ -108,9 +112,10 @@ const ContactEdit = () => {
         </Form.Group>
         <Button variant="primary" type="button" onClick={handleSave}>
           Save
-        </Button>
+          </Button>
+          <Link to="/"> Back</Link>
       </Form>
-
+      </Card.Body>
     </Card>
   );
 }

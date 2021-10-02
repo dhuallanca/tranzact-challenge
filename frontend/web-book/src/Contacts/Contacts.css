@@ -1,0 +1,21 @@
+a {
+    padding: 1rem;
+    float: right;
+}
+
+table {
+    margin-top: 1rem;
+}
+
+thead {
+    background-color: darkslategray;
+    color: white;
+}
+
+tr {
+    cursor: pointer;
+}
+
+.td-center-align {
+    text-align: center;
+}

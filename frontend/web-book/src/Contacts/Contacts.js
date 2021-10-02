@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Button, Container, Table } from 'react-bootstrap';
+import { Button, Card, Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useHistory } from "react-router";
 import axios from '../axios.config';
+import './Contacts.css';
 
 const Contacts = () => {
   const [contacts, setContacts] = useState([]);
@@ -35,14 +36,19 @@ const Contacts = () => {
   }
 
   return (
-    <Container>
-      <Link to="/Contact">Add contact</Link>
-      <Table striped bordered hover size="sm">
+    <Card border="secondary">
+      <Card.Header>
+        Contacts
+      </Card.Header>
+      <Card.Body>
+        <Link to="/Contact">Add contact</Link>
+        <Table striped bordered hover size="sm">
         <thead>
           <tr>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
+            <th></th>
             <th></th>
           </tr>
         </thead>
@@ -52,11 +58,11 @@ const Contacts = () => {
               <td>{contact.firstName}</td>
               <td>{contact.lastName}</td>
               <td>{contact.email}</td>
-              <td><Button onClick={() => goToUpdate(contact.contactId)}>
+              <td className="td-center-align"><Button onClick={() => goToUpdate(contact.contactId)}>
                     Edit
                   </Button>
               </td>
-              <td><Button variant="danger" onClick={() => handleDelete(contact.contactId)}>
+              <td className="td-center-align"><Button variant="danger" onClick={() => handleDelete(contact.contactId)}>
                     Delete
                   </Button>
               </td>
@@ -65,7 +71,9 @@ const Contacts = () => {
           )}
         </tbody>
       </Table>
-    </Container>
+
+      </Card.Body>
+    </Card>
   );
 
 }
