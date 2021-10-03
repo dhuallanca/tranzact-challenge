@@ -19,7 +19,7 @@ const Contacts = () => {
     setContacts(contacts.data);
   };
 
-  const goToUpdate = (id)=> {
+  const goToUpdate = (id) => {
     history.push(`/Contact/${id}`);
   }
 
